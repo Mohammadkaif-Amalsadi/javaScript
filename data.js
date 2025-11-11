@@ -74,9 +74,10 @@ setInterval(() => {
   mouthOpen = !mouthOpen;
   drawPacman();
 }, 300);
-drawPacman();
 
 // Below is code for movement of pacman using arrow keys
+
+// Pacman whole body will change direction based on arrow key pressed
 document.addEventListener("keydown", (event) => {
   const step = 10;
   switch (event.key) {
