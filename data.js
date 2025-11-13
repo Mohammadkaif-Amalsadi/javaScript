@@ -5,9 +5,9 @@ export const myNumber = 42; // Number
 export const myBoolean = true; // Boolean
 export const myArray = [1, 2, 3, 4, 5];
 export const myObject = { name: "Alice", age: 30 }; // Object
-export const myNull = null;
-export const myUndefined = undefined;
-export const mySymbol = Symbol("unique");
+export const myNull = null; // Null
+export const myUndefined = undefined; // Undefined
+export const mySymbol = Symbol("unique"); // Symbol
 
 console.log("String:", myString);
 console.log("Number:", myNumber);

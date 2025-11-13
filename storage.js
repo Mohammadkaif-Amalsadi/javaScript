@@ -6,10 +6,9 @@
 console.log(name);
 
 // difference between var, let and const
-// var      |     let       | const
-// ---------------------------------------
-// function |   block      |   block
-// can be   |   can be     |   cannot be
-// updated  |   updated    |   updated
-// redeclared|  cannot be  |   cannot be
-// ---------------------------------------
+// var                |     let                | const
+// -------------------------------------------------------------------
+// function scoped    |   block scoped        |   block scoped
+// can be updated     |   can be updated      |   cannot be updated
+// redeclared         |   cannot be redeclared|   cannot be redeclared
+// -------------------------------------------------------------------
