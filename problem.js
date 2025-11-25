@@ -85,10 +85,23 @@
 // console.log("10" / "10");
 
 //explicit type conversion (below)
-console.log(String(123));
-console.log(10 + Number("10"));
-console.log(10 - Number("10"));
-console.log(2 * Number("10"));
-console.log(Number("10") / Number("10"));
+// console.log(String(123));
+// console.log(10 + Number("10"));
+// console.log(10 - Number("10"));
+// console.log(2 * Number("10"));
+// console.log(Number("10") / Number("10"));
 
-console.log(Boolean(0));
+// console.log(Boolean(0));
+console.log(3 + true);
+console.log(3 - true);
+console.log(3 - false);
+console.log(3 + false);
+console.log("3" + true);
+console.log("3" - true);
+
+console.log(2 == 2);
+console.log((2 == 2) == 2);
+console.log((((2 == 2) == 2) == 2) == 0);
+
+console.log(x);
+var x;

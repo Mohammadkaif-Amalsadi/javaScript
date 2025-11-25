@@ -8,6 +8,7 @@ newarr.push(11);
 console.log("After Push:", newarr);
 newarr.pop();
 console.log("After Pop:", newarr);
+
 newarr.shift();
 console.log("After Shift:", newarr);
 newarr.unshift(0);
